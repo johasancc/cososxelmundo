@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+    
+}
+
+body{
+	background-color:#333;
+	background-size: cover;
+}
+/*
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+#main-header {
+        background: #333;
+        color: white;
+        height: 80px;
+        
+        width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+/*        left: 0; /* Posicionamos la cabecera al lado izquierdo */
+/*        top: 0; /* Posicionamos la cabecera pegada arriba */
+/*        position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+ /*   }
+    */
+
+    
+    
+
+nav{
+	max-width: fit-content;
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;
+	margin-top: 0px;
+    overflow: hidden;
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+    overflow: hidden;
+
+}
+
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+    overflow: hidden;
+}
+
+.menu-horizontal > li:hover{
+	background-color: #272727;
+    overflow: hidden;
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+    overflow: hidden;
+}
+
+.menu-vertical li:hover{
+	background-color: black;
+    overflow: hidden;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+    overflow: hidden;
+}
+
+#html{
+	margin:auto;
+	padding: 20px;
+	max-width: 900px;
+	background: white;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+footer{
+min-height: 70px;
+background-color: #333;
+position:relative;
+overflow: hidden;
+color: white;
+}
+
+
+address{	
+    max-width: fit-content;
+	margin:auto;
+	background-color: #333;
+	font-size: 11.5px;
+	margin-top: 100px;
+    overflow: hidden;
+}
+
+fieldset{
+	max-width: 900px;
+	margin:auto;
+	background-color: #333;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+div{
+    max-width: fit-content;
+	margin:auto;
+	background-color: #333;
+	font-size: 15px;
+    color: white;
+    
+
+}
+
+form{
+    max-width: 500px;
+	margin:auto;
+	background-color: #333;
+	font-size: 15px;
+}
+
+h1{
+	max-width:fit-content;
+	margin: auto;
+	background-color: #333;
+	font-size: 60px;
+	margin-top: 40px;
+    color: white;
+}
+
+h2{
+	max-width:fit-content;
+	margin: auto;
+	background-color: #333;
+	font-size: 40px;
+	margin-top: 40px;
+    color: white;
+}
+
+p{
+    max-width: fit-content;
+	margin:auto;
+	background-color: #333;
+	font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+
+figcaption{
+	max-width:fit-content;
+	margin: auto;
+	background-color: #333;
+	font-size: 10px;
+	margin-top: 10px;
+    color: white;
+}
+
+legend{
+    max-width:fit-content;
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;
+	margin-top: 10px;
+    color: white;  
+}
+
+.img{
+    max-width:fit-content;
+	margin: auto;
+	background-color: #333;
+	font-size: 40px;
+	margin-top: 40px;
+    color: white;
+    overflow: hidden;
+}
+
+figure{
+    max-width:fit-content;
+	margin: auto;
+	background-color: #333;
+	font-size: 40px;
+	margin-top: 40px;
+    color: white;
+    overflow: hidden;
+}
+
+
+
+
+
+/* spacing */
+
+table {
+    table-layout: fixed;
+    margin: auto;
+    width: 50%;
+    border-collapse:separate;
+    color: white;
+    border: 3px solid #ffffff;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
