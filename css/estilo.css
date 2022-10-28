@@ -37,6 +37,7 @@ body{
     
 
 nav{
+    
 	max-width: fit-content;
 	margin: auto;
 	background-color: #333;
@@ -54,6 +55,8 @@ nav{
 }
 
 .menu-horizontal > li > a{
+    font-family: 'Luckiest Guy', cursive;
+    
 	display: block;
 	padding: 15px 20px;
 	color: white;
@@ -62,12 +65,14 @@ nav{
 }
 
 .menu-horizontal > li:hover{
+    
 	background-color: #272727;
     overflow: hidden;
 }
 
 .menu-vertical{
 	position: absolute;
+    
 	display: none;
 	list-style: none;
 	width: 200px;
@@ -76,20 +81,23 @@ nav{
 }
 
 .menu-horizontal li:hover .menu-vertical{
+
 	display: block;
     overflow: hidden;
 }
 
 .menu-vertical li:hover{
+    font-family: 'Luckiest Guy', cursive;
 	background-color: black;
     overflow: hidden;
 }
 
 .menu-vertical li a{
-	display: block;
+    font-family: 'Luckiest Guy', cursive;
+	display: block;;
 	color: white;
 	text-decoration: none;
-	padding: 15px 15px 15px 20px;
+	padding: 10px 10px 15px 20px;
     overflow: hidden;
 }
 
@@ -149,6 +157,7 @@ form{
 }
 
 h1{
+    font-family: 'Lobster', cursive;
 	max-width:fit-content;
 	margin: auto;
 	background-color: #333;
@@ -158,6 +167,7 @@ h1{
 }
 
 h2{
+    font-family: 'Righteous', cursive;
 	max-width:fit-content;
 	margin: auto;
 	background-color: #333;
@@ -225,7 +235,10 @@ table {
     width: 50%;
     border-collapse:separate;
     color: white;
-    border: 3px solid #ffffff;
+    border-top: solid 10px #000000;
+    border-right: dotted 10px #000000; 
+    border-bottom: dashed 10px #000000; 
+    border-left:groove  10px #000000;
   }
   
   thead th:nth-child(1) {
@@ -247,3 +260,18 @@ table {
   th, td {
     padding: 20px;
   }
+
+
+  .caja1{
+    background-color: aquamarine;
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border-top: solid 5px red;
+    border-right: dotted 10px magenta; 
+    border-bottom: dashed 7px green; 
+    border-left: solid 12px yellow;
+    border-radius: 20%;
+    height: 300px;
+    overflow: auto;
+}
