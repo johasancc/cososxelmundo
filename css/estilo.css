@@ -240,8 +240,13 @@ table {
     border-bottom: dashed 10px #000000; 
     border-left:groove  10px #000000;
   }
+ 
+table td{
+    table-layout: fixed;
+    margin: auto;
+}  
   
-  thead th:nth-child(1) {
+  thead t:nth-child(1) {
     width: 30%;
   }
   
@@ -259,6 +264,8 @@ table {
   
   th, td {
     padding: 20px;
+	table-layout: fixed;
+    margin: auto;
   }
 
 
