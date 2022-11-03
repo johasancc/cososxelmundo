@@ -3,8 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans';
-    
+	font-family: 'Open Sans';   
 }
 
 body{
@@ -56,8 +55,7 @@ nav{
 
 .menu-horizontal > li > a{
     font-family: 'Luckiest Guy', cursive;
-    
-	display: block;
+    display: block;
 	padding: 15px 20px;
 	color: white;
 	text-decoration: none;
@@ -140,6 +138,7 @@ fieldset{
 div{
     max-width: fit-content;
 	margin:auto;
+	align-items: center;
 	background-color: #333;
 	font-size: 15px;
     color: white;
@@ -202,8 +201,8 @@ legend{
 }
 
 .img{
-    max-width:fit-content;
-	margin: auto;
+	width: 50%;
+	margin: 50%;
 	background-color: #333;
 	font-size: 40px;
 	margin-top: 40px;
